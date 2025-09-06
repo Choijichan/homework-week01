@@ -9,4 +9,5 @@ void main() {
   print(blackPinkList.length); // 길이 반환
 
   blackPinkList[3] = '코드팩토리'; // 3번 인덱스값 변경
+  print(blackPinkList);
 }
