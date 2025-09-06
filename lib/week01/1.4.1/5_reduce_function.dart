@@ -4,4 +4,6 @@ void main() {
   final allMembers = blackPinkList.reduce(
     (value, element) => value + ', ' + element,
   ); // 리스트를 순회하며 값들을 더합니다.
+
+  print(allMembers);
 }
