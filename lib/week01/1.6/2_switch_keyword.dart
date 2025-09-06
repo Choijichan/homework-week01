@@ -9,6 +9,17 @@ void main() {
       print('승인 상태입니다.');
       break;
     case Status.pending:
-      prin
+      print('대기 상태입니다.');
+      break;
+    case Status.rejected:
+      print('거절 상태입니다.');
+      break;
+    default:
+      print('알 수 없는 상태입니다.');
   }
+
+  // Enum의 모든 수를
+  // 리스트로 반환합니다.
+
+  print(Status.values);
 }
