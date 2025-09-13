@@ -21,6 +21,6 @@ class GirlGroup implements Idol {
   }
 
   void sayMembersCount() {
-    print('${this.name}')
+    print('${this.name} 멤버는 ${this.membersCount}명입니다.');
   }
 }
