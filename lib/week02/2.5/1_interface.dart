@@ -14,11 +14,11 @@ class Idol {
 }
 
 // implements 키워드를 사용하면 원하는 클래스를 인터페이스로 사용할 수 있습니다.
-class GrilGroup implements Idol {
+class GirlGroup implements Idol {
   final String name;
   final int membersCount;
 
-  GrilGroup(this.name, this.membersCount);
+  GirlGroup(this.name, this.membersCount);
   void sayName() {
     print('저는 여자 아이돌 ${this.name}입니다.');
   }
