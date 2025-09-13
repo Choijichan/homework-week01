@@ -5,10 +5,10 @@ void main() async {
   print('결괏값 $result2');
 }
 
-Future<int> addNumbers(int number1, int number2) saync {
+Future<int> addNumbers(int number1, int number2) async {
   print('$number1 + $number2 계산 시작!');
 
-  await Future.delayed(Duration(seconds: 3), (){
+  await Future.delayed(Duration(seconds: 3), () {
     print('$number1 + $number2 = ${number1 + number2}');
   });
 
