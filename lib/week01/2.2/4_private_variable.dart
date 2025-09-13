@@ -3,7 +3,7 @@ class Idol {
   // 프라이빗 변수를 선언할 수 있습니다.
   String _name;
 
-  Idol(this.name);
+  Idol(this._name);
 }
 
 void main() {
