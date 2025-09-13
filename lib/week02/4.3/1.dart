@@ -11,6 +11,10 @@ void main() {
     '금요일' => 'Friday',
     '토요일' => 'Saturday',
     '일요일' => 'Sunday',
-    // 
-  }
+    // _는 default와 같은 의미로 사용됩니다.
+    _ => 'Not Found',
+  };
+
+  // Monday 출력
+  print(dayEnglish);
 }
