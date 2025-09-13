@@ -35,5 +35,5 @@ void main() {
 
   bts.sayName(); // 부모한테 물려받은 메서드
   bts.sayMembersCount(); // 부모한테 물려받은 메서드
-  bts.sayMale(); // 자식이 새로 추가한
+  bts.sayMale(); // 자식이 새로 추가한 메서드
 }
