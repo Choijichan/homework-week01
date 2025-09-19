@@ -1,4 +1,4 @@
-import'package:flutter/material.dart'
+import'package:flutter/material.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
         body: Center(
           child:Container(
             color: Colors.blue,
-            child: Pagging(
+            child: Padding(
 
               // 상하, 좌우로 모두 16픽셀만큼 패딩 적용
               padding: EdgeInsets.all(
