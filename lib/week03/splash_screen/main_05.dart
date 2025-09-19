@@ -13,16 +13,17 @@ class SpalshScreen extends StatelessWidget {
           decoration: BoxDecoration(
             color: Color(0xFFF99231),
           ),
-          child: Column
-          children: [
+          child: Column(
+            children: [
             // 여러 위젯을 입력할 수 있는 children 매개변수
               Image.asset(
                 'assets/logo.png',
               ),
               CircularProgressIndicator(),
-          ],
-        ),
-      ),
+           ],
+         ),
+       ),
+     ),
     );
   }
 }
