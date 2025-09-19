@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
           child: Container(
               // 스타일 작용
             decoration: BoxDecoration(
+              
               // 배경색 적용
               color: Colors.red,
               // 테두리 적용
