@@ -5,6 +5,9 @@ Text(
   style: TextStyle(
     // 글자 크기
     fontSize: 16.0,
-    //
-  )
+    // 글자 굵기
+    fontWeight: FontWeight.w700,
+    // 글자 색상
+    color: Colors.blue,
+  ),
 )
