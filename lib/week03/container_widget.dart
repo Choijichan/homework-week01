@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 
 void main() {
+  runApp(MyApp());
+}
 
-
+class MyApp extends StatelessWidget {
+  @override
+}
 Container(
   // 스타일 작용
   decoration: BoxDecoration(
