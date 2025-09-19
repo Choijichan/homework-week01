@@ -11,17 +11,16 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: Center(
           child: Container(
-              // 스타일 작용
+            // 스타일 작용
             decoration: BoxDecoration(
-              
               // 배경색 적용
               color: Colors.red,
               // 테두리 적용
               border: Border.all(
-              // 테두리 굵기
+                // 테두리 굵기
                 width: 16.0,
-              // 테두리 색상
-            color: Colors.black,
+                // 테두리 색상
+                color: Colors.black,
           ),
           // 모서리 둥글게 만들기
           borderRadius: BorderRadius.circular(
@@ -32,4 +31,6 @@ class MyApp extends StatelessWidget {
         height: 200.0,
         // 너비
         width: 100.0,
+      )
+        )
       )
