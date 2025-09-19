@@ -1,3 +1,8 @@
+import'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
 ElevatedButton(
   // 클릭 시 실행할 함수
   onPressed: (){},
