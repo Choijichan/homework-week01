@@ -158,6 +158,32 @@
       ]
     },
     {
+      "name": "webview_flutter_wkwebview",
+      "version": "2.9.5",
+      "dependencies": [
+        "flutter",
+        "path",
+        "webview_flutter_platform_interface"
+      ]
+    },
+    {
+      "name": "webview_flutter_platform_interface",
+      "version": "1.9.5",
+      "dependencies": [
+        "flutter",
+        "meta",
+        "plugin_platform_interface"
+      ]
+    },
+    {
+      "name": "webview_flutter_android",
+      "version": "2.10.4",
+      "dependencies": [
+        "flutter",
+        "webview_flutter_platform_interface"
+      ]
+    },
+    {
       "name": "sky_engine",
       "version": "0.0.0",
       "dependencies": []
@@ -232,20 +258,6 @@
       ]
     },
     {
-      "name": "vm_service",
-      "version": "15.0.0",
-      "dependencies": []
-    },
-    {
-      "name": "webview_flutter_platform_interface",
-      "version": "1.9.5",
-      "dependencies": [
-        "flutter",
-        "meta",
-        "plugin_platform_interface"
-      ]
-    },
-    {
       "name": "plugin_platform_interface",
       "version": "2.1.8",
       "dependencies": [
@@ -253,21 +265,9 @@
       ]
     },
     {
-      "name": "webview_flutter_wkwebview",
-      "version": "2.9.5",
-      "dependencies": [
-        "flutter",
-        "path",
-        "webview_flutter_platform_interface"
-      ]
-    },
-    {
-      "name": "webview_flutter_android",
-      "version": "2.10.4",
-      "dependencies": [
-        "flutter",
-        "webview_flutter_platform_interface"
-      ]
+      "name": "vm_service",
+      "version": "15.0.0",
+      "dependencies": []
     }
   ],
   "configVersion": 1
