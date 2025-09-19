@@ -22,4 +22,9 @@ class MyApp extends StatelessWidget {
             child: Container(
               color: Colors.red,
             ),
-          )
+          ),
+        ),
+      ),
+    );
+  }
+}
