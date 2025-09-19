@@ -5,5 +5,6 @@ Text(
   style: TextStyle(
     // 글자 크기
     fontSize: 16.0,
+    //
   )
 )
