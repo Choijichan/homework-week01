@@ -21,11 +21,11 @@ class SplashScreen extends StatelessWidget {
                 'assets/logo.png',
                 width: 200, // 너비 추가
               ),
-              CircuarProgressIndicator(),
-            ]
-          )
-        )
-      )
-    )
+              CircularProgressIndicator(),
+            ],
+          ),
+        ),
+      ),
+    );
   }
 }
