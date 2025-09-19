@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          Container(
+          child: Container(
   // 스타일 작용
   decoration: BoxDecoration(
     // 배경색 적용
