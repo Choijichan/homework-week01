@@ -9,12 +9,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body
-      )
-    )
-  }
-}
-SizedBox(
+        body: Center(
+          child:SizedBox(
   // 높이 지정
   height: 200.0,
 
